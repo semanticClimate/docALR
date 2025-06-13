@@ -6,10 +6,10 @@ import pandas as pd
 from summarization import summarize_file
 
 st.set_page_config(page_title="DocAlr - Summarize PDFs", layout="centered")
-st.title("📄 DocAlr: PDF Summarizer")
+st.title(" DocAlr: PDF Summarizer")
 
 # Model configuration
-model_name = st.text_input("🤖 Hugging Face Model", "sshleifer/distilbart-cnn-12-6")
+model_name = st.text_input("Hugging Face Model", "sshleifer/distilbart-cnn-12-6")
 max_output_length = st.slider("Max Output Length", 50, 512, 200)
 min_length = st.slider("Min Output Length", 10, 100, 10)
 length_penalty = st.slider("Length Penalty", 0.1, 2.0, 0.8)
