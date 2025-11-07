@@ -17,15 +17,15 @@ A modular and extensible pipeline for **automated retrieval**, **named entity re
 # 🧪 Project Setup & Run Instructions
 # ============================================
 # 1️⃣ Create a new Conda environment with Python 3.11
-      '''conda create -n phytochem python=3.11 -y'''
+      '''conda create -n phytochem python=3.11 -y
 #
 # 2️⃣ Activate the environment
-  '''conda activate phytochem'''
+      '''conda activate phytochem'''
 #
 # 3️⃣ Install all required libraries
-  '''pip install -r requirements.txt'''
+        '''pip install -r requirements.txt'''
 #
 # 4️⃣ Run the Streamlit app
-  '''streamlit run app_final.py'''
+        '''streamlit run app_final.py'''
 
 
