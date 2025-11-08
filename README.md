@@ -23,7 +23,7 @@ A modular and extensible pipeline for **automated retrieval**, **named entity re
             conda activate ALR
 #
 # 3️⃣ Install all required libraries
-            pip install -r requirements.txt            
+            pip install -r requirement_for_app_final.txt            
 #
 # 4️⃣ Run the Streamlit app
             streamlit run app_final.py
